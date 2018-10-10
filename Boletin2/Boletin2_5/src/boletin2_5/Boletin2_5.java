@@ -16,20 +16,20 @@ public class Boletin2_5 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double soldo, soldoBruto, soldoLiquido, km, dias, vendas;
+        double sueldo, sueldoBruto, sueldoLiquido, km, dias, vendas;
         Scanner teclado = new Scanner(System.in);
         System.out.println("Introduzca el sueldo fijo:");
-        soldo = teclado.nextDouble();
+        sueldo = teclado.nextDouble();
         System.out.println("Introduzca el quilometraje:");
         km = teclado.nextDouble();
         System.out.println("Introduzca el número de días de desplazamiento:");
         dias = teclado.nextDouble();
         System.out.println("Introduzca el importe de ventas:");
         vendas = teclado.nextDouble();
-        soldoBruto = soldo + (km * 2) + (dias * 30) + (vendas * 5 / 100);
-        soldoLiquido = soldoBruto - (soldoBruto * 18 / 100) - 36;
-        System.out.println("El sueldo bruto sera de " + soldoBruto + "€");
-        System.out.println("El sueldo líquido será de " + soldoLiquido + "€");
+        sueldoBruto = sueldo + (km * 2) + (dias * 30) + (vendas * 5 / 100);
+        sueldoLiquido = sueldoBruto - (sueldoBruto * 18 / 100) - 36;
+        System.out.println("El sueldo bruto sera de " + sueldoBruto + "€");
+        System.out.println("El sueldo líquido será de " + sueldoLiquido + "€");
     }
     
 }
