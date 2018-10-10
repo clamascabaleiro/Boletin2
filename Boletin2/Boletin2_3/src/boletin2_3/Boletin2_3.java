@@ -35,7 +35,7 @@ public class Boletin2_3 {
         mUno = cUno;
         //Sumamos la cantidad y visualizamos
         cantidadTotal = bCien + bVeinte + bCinco + mUno;
-        System.out.println("La cantidad total es : " + cantidadTotal + "€");
+        System.out.println("La cantidad total es : " + cantidadTotal + "€");    
         
         
         
