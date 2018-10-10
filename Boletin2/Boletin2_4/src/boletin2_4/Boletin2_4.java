@@ -26,7 +26,7 @@ public class Boletin2_4 {
       int billetes20 = resto1/20, resto2 = resto1%20; //Dividimos el resto entre 20 y realizamos el modulo
       int billetes5 = resto2/5, resto3 = resto2%5; //Dividimos el resto entre 5 y realizamos el modulo
       System.out.println("Tenemos " + billetes100 + " billetes de 100€, " + billetes20 + " billetes de 20€, " + billetes5 + " billetes de 5€ y " + resto3 + " monedas de 1€");
-        
+      
     }
     
 }
